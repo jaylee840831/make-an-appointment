@@ -163,22 +163,22 @@ public class searchData {
                 driver.manage().timeouts().implicitlyWait(1000, TimeUnit.SECONDS);
 
                 WebElement text_name= driver.findElement(By.id("no"));
-                text_name.sendKeys("G122219322");
+                text_name.sendKeys("G111111111");
 
                 // WebElement birthday_y=driver.findElement(By.id("yeartype"));
                 // birthday_y.sendKeys("民國");
 
                 WebElement birthday_year=driver.findElement(By.id("y1"));
-                birthday_year.sendKeys("84");
+                birthday_year.sendKeys("80");
 
                 WebElement birthday_month=driver.findElement(By.id("m1"));
-                birthday_month.sendKeys("08");
+                birthday_month.sendKeys("02");
 
                 WebElement birthday_day=driver.findElement(By.id("d1"));
-                birthday_day.sendKeys("31");
+                birthday_day.sendKeys("15");
 
                 WebElement text_phone=driver.findElement(By.id("txtCellPhone"));
-                text_phone.sendKeys("0976595831");
+                text_phone.sendKeys("0911111111");
 
                 WebElement submit_btn=driver.findElement(By.id("Button1"));
                 submit_btn.click();
